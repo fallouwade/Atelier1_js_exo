@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+
+		<script type="text/javascript">
+			
+			var tab =["fallou", "wade", "Meedina", "fal"]
+
+			var tab2=[]
+
+
+			var table="<table border='1'>"
+			for (var i = 0; i < tab.length; i++) {
+				
+				tab2.push(i);
+
+				tab2[i]= tab[i]+ " a pour longueur " +tab[i].length +"<br>";
+				table += "<tr> <td>" + tab2[i] + "</td> </tr>"
+
+				
+			}
+
+				table +="</table>";
+
+				document.write(table)
+
+		</script>
+
+
+</body>
+</html>

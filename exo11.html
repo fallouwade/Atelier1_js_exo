@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+		<script type="text/javascript">
+			
+
+			function valide(){
+			var tab=[2, 4, 8, 1]
+
+			var tab2=[7, 3, 9, 2]
+
+			var resultat;
+
+			var table="<table border='1'>"
+
+			for (var i = 0; i < 4; i++) {
+			
+					resultat= parseInt(tab[i])+ parseInt (tab2[i])
+
+					console.log(resultat)
+						table += "<tr> <td>" + resultat + "</td> </tr>"
+
+			}
+
+			table +="</table>";
+				document.write(table)
+
+				}
+
+				valide();
+
+			
+
+			
+
+		</script>
+
+
+</body>
+</html>
